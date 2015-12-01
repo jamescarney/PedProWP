@@ -1448,19 +1448,12 @@ HEADER STYLES
     height: 4em;
     margin-bottom: 1em; }
   .hero .hero-inner {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     height: 100vh;
     width: 100%;
     margin: auto;
     padding: 3.5em;
     text-align: center;
     background: rgba(50, 57, 68, 0.5); }
-    .hero .hero-inner::after {
-      clear: both;
-      content: "";
-      display: table; }
     .hero .hero-inner::after {
       clear: both;
       content: "";
@@ -2085,7 +2078,40 @@ you can add resource intensive styles.
     the footer.
     */ }
 
-  /* end .footer-links */ }
+  /* end .footer-links */
+  .inner-footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto; }
+    .inner-footer::after {
+      clear: both;
+      content: "";
+      display: table; }
+
+  .footer-nav-important {
+    float: left;
+    display: block;
+    margin-right: 2.1276595745%;
+    width: 48.9361702128%; }
+    .footer-nav-important:last-child {
+      margin-right: 0; }
+
+  .footer-nav-social {
+    float: left;
+    display: block;
+    margin-right: 2.1276595745%;
+    width: 48.9361702128%;
+    margin-right: 0; }
+    .footer-nav-social:last-child {
+      margin-right: 0; }
+
+  .copyright {
+    float: left;
+    display: block;
+    margin-right: 2.1276595745%;
+    width: 100%; }
+    .copyright:last-child {
+      margin-right: 0; } }
 /*********************
 DESKTOP
 This is the average viewing window. So Desktops, Laptops, and

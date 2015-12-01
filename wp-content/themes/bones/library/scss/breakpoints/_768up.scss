@@ -292,3 +292,19 @@ mobile. Make sure to double check these!
 	}
 } /* end .footer-links */
 
+.inner-footer {
+	@include outer-container;
+}
+
+.footer-nav-important {
+	@include span-columns(6);
+}
+
+.footer-nav-social {
+	@include span-columns(6);
+	@include omega();
+}
+
+.copyright {
+	@include span-columns(12);
+}
