@@ -1470,6 +1470,9 @@ HEADER STYLES
         font-size: 1.5rem;
         margin: 0 auto 3.5em auto; }
 
+.logo > a > span:before {
+  content: '\A'; }
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -1848,6 +1851,9 @@ FOOTER STYLES
   clear: both;
   background-color: #5a5c51;
   color: #ddd; }
+  .footer h5 {
+    margin-top: 25px;
+    margin-bottom: 0; }
 
 /*
 if you checked out the link above:
@@ -1858,6 +1864,9 @@ it simple because you'll have to
 override these styles for the desktop
 view.
 */
+.footer-links ul li a {
+  color: white; }
+
 /* end .footer-links */
 /*********************
 LARGER MOBILE DEVICES
@@ -2092,7 +2101,7 @@ you can add resource intensive styles.
     float: left;
     display: block;
     margin-right: 2.1276595745%;
-    width: 48.9361702128%; }
+    width: 31.914893617%; }
     .footer-nav-important:last-child {
       margin-right: 0; }
 
@@ -2100,10 +2109,22 @@ you can add resource intensive styles.
     float: left;
     display: block;
     margin-right: 2.1276595745%;
-    width: 48.9361702128%;
+    width: 31.914893617%;
     margin-right: 0; }
     .footer-nav-social:last-child {
       margin-right: 0; }
+    .footer-nav-social li {
+      margin: auto; }
+
+  .footer-nav-legal {
+    float: left;
+    display: block;
+    margin-right: 2.1276595745%;
+    width: 31.914893617%; }
+    .footer-nav-legal:last-child {
+      margin-right: 0; }
+    .footer-nav-legal li {
+      margin: auto; }
 
   .copyright {
     float: left;

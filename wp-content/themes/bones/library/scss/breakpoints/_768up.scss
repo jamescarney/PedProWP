@@ -297,12 +297,22 @@ mobile. Make sure to double check these!
 }
 
 .footer-nav-important {
-	@include span-columns(6);
+	@include span-columns(4);
 }
 
 .footer-nav-social {
-	@include span-columns(6);
+	@include span-columns(4);
+	li {
+		margin: auto;
+	}
 	@include omega();
+}
+
+.footer-nav-legal {
+	@include span-columns(4);
+	li {
+		margin: auto;
+	}
 }
 
 .copyright {

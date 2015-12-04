@@ -209,6 +209,10 @@ HEADER STYLES
   }
 }
 
+.logo > a >span:before {
+	content: '\A';
+}
+
 /*********************
 NAVIGATION STYLES
 *********************/
@@ -932,6 +936,11 @@ FOOTER STYLES
 	clear: both;
 	background-color: $green-color;
 	color: $light-gray;
+
+	h5 {
+		margin-top: 25px;
+		margin-bottom: 0;
+	}
 }
 
 	/*
@@ -947,7 +956,11 @@ FOOTER STYLES
 
 		ul {
 
-			li {}
+			li {
+				a {
+					color: white;
+				}
+			}
 
 		}
 
