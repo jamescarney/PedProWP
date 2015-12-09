@@ -35,3 +35,15 @@ by 0dp
 https://github.com/0dp/generator-wp-bones
 
 
+##Need to Fix
+
+There are a few things that I want to fix. Some of them are about SEO and figuring out the best keywords to use, and others are about making the website work better.
+
+###SEO
+
+Do research about longtail keywords. We need to compete with Pedigree for our main keyword. That is going to be hard because they are a close to billion dollar company selling something for dogs. Not anything horse related. So I need to find some longtail keywords that are more relevant, because most people who are searching for those keywords are looking for food, not for us.
+
+* Thoroughbred horse pedigrees
+* Horse sale catalogue
+
+

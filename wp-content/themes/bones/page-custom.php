@@ -91,7 +91,10 @@
 
 						</main>
 
-						<?php get_sidebar(); ?>
+				</div>
+				<div class="side-content">
+					
+					<?php get_sidebar(); ?>
 
 				</div>
 

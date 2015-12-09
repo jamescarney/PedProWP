@@ -90,7 +90,7 @@
 				<div class="hero-inner">
 					<img src="<?php echo get_template_directory_uri(); ?>/library/images/A12.png" alt="Logo Image" class="hero-logo">
 					<div class="hero-copy">
-						<h1>Pedigree Productions</h1>
+						<h1><?php the_title(); ?> | Pedigree Productions</h1>
 						<p>Providing the worlds finest pedigrees since 1974. <br><i class="fa fa-chevron-down"></i></p>	
 						
 					</div>
